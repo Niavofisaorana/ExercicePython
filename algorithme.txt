@@ -1,0 +1,16 @@
+Debut
+    - une fonction truth_table qui contient
+            - des boucles pour les variables a,b et c
+            -  une variable result qui contient le variable (a and b) de type booleen convertir en nombre 1 et 0
+            - une tableau vide appelée table et apres en mis tout les variables(a,b,c) et le result
+     
+     - une fonction canonical_forms avec une parametre table qui contient :
+            - une boucle du variable table qui affiche une fonction  logique de a,b,c et result
+            - une condition :    si result=1 ajoute le variable a,b,c dans mintermes
+                                              sinon ajoute le variable a,b,c dans maxtermes
+            - une variable minterm_str qui contient le valeur  du tableau 
+     - une fonction main qui contient
+             - du l'entête du tableau
+             - du boucle qui affiche le booleen principal du tableau
+        
+Fin
